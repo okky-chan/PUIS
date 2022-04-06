@@ -7,8 +7,8 @@ web.get('https://puis.president.ac.id')
 username = web.find_element_by_id("email")
 password = web.find_element_by_id("pass")
 
-username.send_keys("user")
-password.send_keys("pass")
+username.send_keys("username")
+password.send_keys("your password")
 
 web.find_element_by_xpath('//*[@id="login"]/dl/dd[3]/input').click()
 time.sleep(2)
