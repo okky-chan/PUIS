@@ -52,10 +52,6 @@ RadioButtonPeriod = web.find_element_by_xpath('//*[@id="2002256425"]/tbody/tr[20
 RadioButtonPeriod.click() #18
 RadioButtonPeriod = web.find_element_by_xpath('//*[@id="2002256425"]/tbody/tr[21]/td[5]/input')
 RadioButtonPeriod.click() #19
-RadioButtonPeriod = web.find_element_by_xpath('//*[@id="2002256425"]/tbody/tr[22]/td[5]/input')
-RadioButtonPeriod.click() #20
-RadioButtonPeriod = web.find_element_by_xpath('//*[@id="2002256425"]/tbody/tr[23]/td[5]/input')
-RadioButtonPeriod.click() #21
 
 Comment = "The lecturing is good enough"
 com = web.find_element_by_xpath('//*[@id="comment"]')
